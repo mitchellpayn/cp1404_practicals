@@ -1,10 +1,7 @@
 """
-Practical 01 Temperatures
-"""
-
-"""
 CP1404/CP5632 - Practical
 Pseudocode for temperature conversion
+Practical 01 Temperatures using functions
 """
 
 MENU = """C - Convert Celsius to Fahrenheit

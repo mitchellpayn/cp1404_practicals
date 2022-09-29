@@ -7,7 +7,7 @@ menu = """(H)ello
 
 name = str(input("Enter your name:"))
 print(menu)
-option = str(input("Select your option:\n"))
+option = str(input("Select your option:\n").upper())  # converts lowert to upper
 while option != "Q":
     if option == "H":
         print(f"Hello {name}\n")
@@ -17,5 +17,3 @@ while option != "Q":
         print("Invalid Option (Answer is case sensitive)\n")
     print(menu)
     option = str(input("Select your option:"))
-
-

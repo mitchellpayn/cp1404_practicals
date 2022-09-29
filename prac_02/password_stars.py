@@ -1,5 +1,5 @@
 """
-
+Get the right length password and print the length in *'s.
 """
 
 def main():

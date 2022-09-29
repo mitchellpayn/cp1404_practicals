@@ -1,14 +1,14 @@
 """
 CP1404/CP5632 - Practical
-Broken program to determine score status
+Score status using functions
 """
 
 import random
 
 def main():
-    # score = float(input("Enter score: "))
-    # result = determine_score_result(score)
-    # print(f"Your result is {result}")
+    score = float(input("Enter score: "))
+    result = determine_score_result(score)
+    print(f"Your result is {result}")
     score = random.randint(0, 100)
     result = determine_score_result(score)
     print(f"Your result is {result}")
