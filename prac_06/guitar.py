@@ -1,10 +1,11 @@
 """
-
+Guitar class Prac 6
 """
 CURRENT_YEAR = 2022
 
 
 class Guitar:
+    """Guitar class for sorting guitar information"""
     def __init__(self, name="", year=0, cost=0.0):
         self.name = name
         self.year = year

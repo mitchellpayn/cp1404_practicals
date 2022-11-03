@@ -20,7 +20,9 @@ def main():
     # guitars.append(Guitar("The big boy", 1899, 200000.00))
     if guitars:
         guitars.sort()
+        print("My Guitars")
         for i, guitar in enumerate(guitars):
+            vintage_string = "Not Vintage"
             if guitar.is_vintage():
                 vintage_string = "vintage"
             print(f"Guitar {i + 1}: {guitar.name:>20} ({guitar.year}), worth $ {guitar.cost:10,.2f} ({vintage_string})")
