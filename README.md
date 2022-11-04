@@ -1,4 +1,4 @@
-# Mitchell Payn
+# Mitchell Payn:
 About me: 3rd year Electrical Engineering student
 About Repo: This repo contains my attempts at the CP1404 practicals
 
